@@ -1,0 +1,24 @@
+challenge:
+  type: Quiz
+  id: QZ001
+  title: Cybersecurity Quiz
+  description: A quiz on basic cybersecurity concepts
+  category: Quiz
+  difficulty: Easy
+  questions:
+    - id: Q1
+      question: What is a firewall?
+      options:
+        - A: A physical barrier for real fires
+        - B: A software program to protect against intrusions
+        - C: A kind of antivirus
+        - D: A type of hacker
+      correct_answer: B
+      points: 10
+      time: 0
+metadata:
+  audience:
+    group_id: group001
+    group_name: CTF Champions
+  creator:
+    username: creator
